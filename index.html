@@ -2563,8 +2563,8 @@ function renderProfile(){
    Пусто => лидерборд работает только локально (без фейковых игроков).
    ===================================================================== */
 const BACKEND = {
-  url:     '',   // 'https://ВАШ-ПРОЕКТ.supabase.co'   (Settings → API → Project URL)
-  anonKey: '',   // публичный anon-ключ                 (Settings → API → anon public)
+  url:     'https://supabase.com/dashboard/project/enbptbwdqwldcvlymuyh',   // 'https://ВАШ-ПРОЕКТ.supabase.co'   (Settings → API → Project URL)
+  anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVuYnB0YndkcXdsZGN2bHltdXloIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE0NDU1ODIsImV4cCI6MjA5NzAyMTU4Mn0.8tA2kqHCiXWdZoX-h0IRckaPo5EFCLatPz1QCZvxw2w',   // публичный anon-ключ                 (Settings → API → anon public)
 };
 const LB_ON = () => !!(BACKEND.url && BACKEND.anonKey);
 const ACTIVE_MS = 48*3600*1000;     // окно активности — 48 часов
